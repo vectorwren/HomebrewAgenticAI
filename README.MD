@@ -1,5 +1,5 @@
 # 🐍 HomebrewAgenticAI - Poor Man's Agentic RAG
-This project implements a "Poor Man's Agentic RAG (Retrieval Augmented Generation)" system in Python, inspired by the concepts discussed in the blog "[Building a 'Poor Man's Agentic RAG' with Python: A Step-by-Step Guide](https://REDACTED.medium.com/building-a-poor-mans-agentic-rag-with-python-a-step-by-step-guide-3284aa90297e)". It combines a web crawler for data ingestion, a local Large Language Model (LLM) for summarization and embeddings, and a Supabase instance for vector storage and retrieval. The system also includes an agentic loop with a self-correction mechanism to improve the quality of generated answers by ensuring proper tool usage.
+This project implements a "Poor Man's Agentic RAG (Retrieval Augmented Generation)" system in Python, inspired by the concepts discussed in the blog "[Building a 'Poor Man's Agentic RAG' with Python: A Step-by-Step Guide](https://kazimurtaza.medium.com/building-a-poor-mans-agentic-rag-with-python-a-step-by-step-guide-3284aa90297e)". It combines a web crawler for data ingestion, a local Large Language Model (LLM) for summarization and embeddings, and a Supabase instance for vector storage and retrieval. The system also includes an agentic loop with a self-correction mechanism to improve the quality of generated answers by ensuring proper tool usage.
 
 # ✨ Features
 - **Documentation Crawling:** Asynchronously crawls specified documentation websites, extracts content, and processes it into structured chunks.
@@ -44,7 +44,7 @@ Follow these steps to get the project up and running on your local machine.
 1. **Clone the Repository**
 First, set up the recommended project structure if you haven't already:
 ```
-git clone https://github.com/REDACTED/HomebrewAgenticAI.git
+git clone https://github.com/vectorwren/HomebrewAgenticAI.git
 ```
 
 
