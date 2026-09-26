@@ -1,0 +1,7 @@
+aiohttp
+asyncio
+httpx
+pydantic_ai
+supabase
+python-dotenv
+mem0ai
